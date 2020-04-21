@@ -75,7 +75,7 @@
     function setDate(){
       let now = new Date();
       let seconds = now.getSeconds();
-      let secondsDegrees = ((seconds / 60) * 360)
+      let secondsDegrees = ((seconds / 60) * 360) + 90
       secondHand.style.transform = `rotate(${secondsDegrees}deg)`
     }
 
